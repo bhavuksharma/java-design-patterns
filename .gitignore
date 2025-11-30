@@ -1,0 +1,73 @@
+# ----------------------------------------
+# Java
+# ----------------------------------------
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------
+# IntelliJ IDEA
+# ----------------------------------------
+.idea/
+*.iws
+out/
+*.ipr
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ module files
+*.iml
+
+# JetBrains
+# Exclude user-specific and workspace files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# ----------------------------------------
+# Maven
+# ----------------------------------------
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# ----------------------------------------
+# Gradle
+# ----------------------------------------
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# ----------------------------------------
+# Eclipse (if ever opened in Eclipse)
+# ----------------------------------------
+.classpath
+.project
+.settings/
+bin/
+
+# ----------------------------------------
+# Other build tools
+# ----------------------------------------
+dist/
+build/
+tmp/
